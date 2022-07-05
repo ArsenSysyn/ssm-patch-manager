@@ -44,3 +44,21 @@ variable "max_errors" {
     type = number
     default = 3
 }
+
+variable "owner" {
+    description = "Specify the owner of Patch Baseline, it can be AWS or Self"
+    type = string
+    default = "AWS"
+}
+
+variable "name_prefix" {
+    description = "Specify the name prefix of the Patch Baseline which you want to apply"
+    type = string
+    default = "AWS-WindowsPredefinedPatchBaseline-OS-Applications"
+}
+
+variable "operating_system" {
+    description = "Specify operation system of the Patch Baseline which you want to apply"
+    type = string
+    default = "WINDOWS"
+}

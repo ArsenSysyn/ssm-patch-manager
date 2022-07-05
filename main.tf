@@ -22,7 +22,7 @@ resource "aws_ssm_maintenance_window_target" "target" {
 }
 
 resource "aws_ssm_maintenance_window_task" "patching" {
-    window_id = aws_ssm_maintenance_window.dev.id
+    window_id = aws_ssm_maintenance_window.window.id
     task_type = "RUN_COMMAND"
     task_arn = "AWS-RunPatchBaseline"
     priority = var.priority
