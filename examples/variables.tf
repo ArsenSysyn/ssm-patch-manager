@@ -3,5 +3,5 @@ variable "patch_group_name" {
 }
 
 variable "cron_schedule" {
-    default = "cron(07 12 ? * * *)"
+    default = "cron(45 12 ? * * *)"
 }
