@@ -38,7 +38,7 @@ resource "aws_ssm_maintenance_window_task" "patching" {
         run_command_parameters { 
             parameter {
                 name = "Operation"
-                values = ["Scan","Install"]
+                values = ["Install"]
             }
 
         }

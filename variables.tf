@@ -42,7 +42,7 @@ variable "max_concurrency" {
 variable "max_errors" {
     description = "Specify the number of errors to stop patching"
     type = number
-    default = 30
+    default = 3
 }
 
 variable "owner" {
