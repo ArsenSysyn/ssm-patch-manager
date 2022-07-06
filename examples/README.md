@@ -56,7 +56,7 @@ module "ec2_windows" {
 module "patch-manager" {
     source = "github.com/ArsenSysyn/ssm-patch-manager"
     patch_group_name = "PatchGroupWin2019Prod"
-    cron_schedule = var.cron_schedule
+    cron_schedule = "cron(55 09 ? * * *)"
 }
 ```
 And on the screenshot you can see succes result of patching these instaces.
