@@ -4,6 +4,8 @@ By default this module provide configured patch managment for Windows Platforms 
 
 ## Usage:
 
+Example of usage module you can find in __examples__ directory
+ 
 ```
 module "patch-manager" {
     source = "github.com/ArsenSysyn/ssm-patch-manager"
