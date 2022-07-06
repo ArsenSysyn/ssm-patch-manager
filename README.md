@@ -77,21 +77,21 @@ __owner__(string)
 
 Description: specify the owner of Patch Baseline, it can be AWS or Self
 
-default: 'AWS'
+default: `AWS`
 
 
 __name_prefix__(string)
 
 Description: specify the name prefix of the Patch Baseline which you want to apply
 
-default: 'AWS-WindowsPredefinedPatchBaseline-OS-Applications'
+default: `AWS-WindowsPredefinedPatchBaseline-OS-Applications`
 
 
 __operating_system__(string)
 
 Description: specify operation system of the Patch Baseline which you want to apply
 
-default: 'WINDOWS'
+default: `WINDOWS`
 
 
 ---
