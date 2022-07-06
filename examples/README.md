@@ -1,1 +1,1 @@
-# Example of usage module with Windows instances
+# Example of usage module with Windows and Linux instances 
