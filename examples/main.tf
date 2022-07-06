@@ -50,6 +50,4 @@ module "patch-manager" {
     source = "github.com/ArsenSysyn/ssm-patch-manager"
     patch_group_name = var.patch_group_name
     cron_schedule = var.cron_schedule
-    max_errors = 3
-  
 }
